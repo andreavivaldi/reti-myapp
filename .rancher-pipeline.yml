@@ -4,7 +4,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: demo/myapp
+      tag: reti/myapp
       registry: 127.0.0.1:34891
 timeout: 60
 notification: {}
